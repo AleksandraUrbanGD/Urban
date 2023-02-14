@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Kursy stylizacji paznokci Gdańsk, inspiracje paznokciowe, szkolenia hybryda, żel Gdańsk"
+    />
+    <meta
+      name="keywords"
+      content="hybryda, paznokcie, żel, szkolenia paznokci"
+    />
+    <meta name="author" content="Aleksandra Urban" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/bootstrap.css" />
+    <title>Urban-kontakt</title>
+  </head>
+    <!--  https://getbootstrap.com/docs/4.0/components/breadcrumb/  framework
+  https://www.w3schools.com/colors/colors_palettes.asp     kolory na strone -->
+  <body>
+    <header>
+      <div class="card text-justify">
+        <div class="card-header">
+          <a href="../index.html"
+            ><img
+              src="../images/logo-urban.png"
+              alt="Logo .Urban"
+              width="200"
+              height="50"
+          /></a>
+          <ul class="nav float-right">
+            <li class="nav-item">
+              <a class="nav-link" href="../articles/o-mnie.html">o mnie</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../articles/portfolio.html"
+                >portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../articles/szkolenia.html"
+                >szkolenia
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../articles/kontakt.html">kontakt </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="m-3">
+      <h2>kontakt</h2>
+      Zapraszam do obserwowania mnie na social mediach
+      <!-- ikona instagram i tik tok-->
+      @aurban_nails_educator
+
+      <p>
+        Masz pytania? Zapraszam do kontaktu <br />
+
+        <span>Email:</span>
+        <a href="mailto:aleksandra.urban93@gmail.com"
+          >aleksandra.urban93@gmail.com</a
+        >
+      </p>
+
+      <form action="send_mail.php" metoda="post">
+        <fieldset>
+          <legend>Możesz również skorzystać z formularza kontaktowego.</legend>
+
+          <div class="form-text form-check">
+            Twój email:
+            <input
+              class="mb-3"
+              type="email"
+              name="email "
+              id="email"
+              required
+            />
+
+            <br />Treść Twojego maila:
+            <textarea
+              class="form-text"
+              name="email_content"
+              id="email_content"
+              cols="50%"
+              rows="10"
+              placeholder="Treść wiadomości"
+              required
+            >
+            </textarea>
+
+            <br />
+            <input
+              class="btn btn-primary btn-outline-danger"
+              type="submit"
+              value="Wyślij"
+              role="button"
+            />
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
